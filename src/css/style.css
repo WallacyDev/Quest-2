@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Oxanium:wght@300;400;700&family=Roboto:wght@400;900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: url(../imagens/background-repeat.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    gap: 30px;
+}
+
+.container .informacoes {
+    width: 300px;
+    height: 111px;
+    color: #fff;
+}
+
+.container .informacoes .titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container .informacoes .texto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 402;
+}
+
+.container .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 340px;
+    height: 380px;
+}
+
+.container .formulario .preencher-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .formulario .preencher-dados .dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .formulario .preencher-dados .input {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #ABABAB;
+}
+
+.container .formulario .preencher-dados .textarea {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+
+.container .formulario .preencher-dados .label {
+    color: #F52E2E;
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.container .formulario .preencher-dados .label.invalido {
+    opacity: 1;
+}
+
+.container .formulario .preencher-dados .input.invalido {
+    border: solid 1px #F52E2E;
+}
+
+.container .formulario .preencher-dados .input.valido {
+    border: solid 1px #3CCC87;
+}
+
+.container .formulario .enviar .campos-obrigatorios {
+    padding-bottom: 15px;
+    font-family: Roboto;
+}
+
+.container .formulario .enviar .botao {
+    font-weight: 700;
+    font-size: 15px;
+    border: solid 1px #3CCC87;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    color: #fff;
+    width: 300px;
+    height: 41px;
+}
