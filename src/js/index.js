@@ -1,22 +1,18 @@
-// const inputsAll = document.querySelectorAll(".input")
-// console.log(inputsAll);
-// const camposAll = document.querySelectorAll(".label")
-// console.log(camposAll);
-// const botaoEnviar = document.querySelector(".botao")
-// console.log(botaoEnviar);
+const inputsAll = document.querySelectorAll(".input")
+console.log(inputsAll);
 
-// inputsAll.forEach((item)  => {
-//     item.addEventListener('input', function() {
-//         const textoDigitado = inputsAll.value.trim();
+inputsAll.forEach((item)  => {
+    item.addEventListener('input', function() {
+        const textoDigitado = inputsAll.value.trim();
 
-//         if (textoDigitado !== "") {
-//         item.classList.add('invalido')
-//     } else {
-//         item.classList.remove('invalido')
-//     }
-// });
+        if (textoDigitado !== "") {
+        item.classList.add('invalido')
+    } else {
+        item.classList.remove('invalido')
+    }
+});
 
-// });
+});
 
 function validar() {
     // Obtenha referências para os campos do formulário

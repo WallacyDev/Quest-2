@@ -85,10 +85,11 @@ body {
     font-family: Roboto;
     font-size: 8px;
     font-weight: 400;
+    opacity: 0;
 }
 
 .error {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 .container .formulario .preencher-dados .label.invalido {
@@ -100,12 +101,13 @@ body {
 }
 
 .container .formulario .preencher-dados .input.valido {
-    border: solid 1px #3CCC87;
+    border: solid 2px #3CCC87;
 }
 
-.container .formulario .enviar .campos-obrigatorios {
+.container .formulario .campos-obrigatorios {
     padding-bottom: 15px;
     font-family: Roboto;
+    font-size: 12px;
 }
 
 .container .formulario .enviar .botao {
